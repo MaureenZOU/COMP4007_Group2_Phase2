@@ -15,5 +15,5 @@ Run
 Clieck on [Start Server], and Run the client Stream.
 
 ## Compatibility
-Please Run on MacOS System, if Run on PC Please Adjust the following line:
+Adapt to both Mac and PC
 
