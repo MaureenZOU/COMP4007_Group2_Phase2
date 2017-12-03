@@ -6,8 +6,47 @@ This project is originally written on Mac, please feel free to directly run it o
 However, for **PC USERS**:
 
 Please do the following changes on the java files
+
+Client.java line 482:
+
+Change
 ```
+req=ticketReq+cidP+Integer.toString(cidDft)+' '+numString+"\r\n";
+```
+To
+```
+req=ticketReq+cidP+Integer.toString(cidDft)+' '+numString+"\n";
+```
+
+MainThread.java 
+
+line 109 Change
+```
+details = "TicketRep: " + cid + " " + nPersons + " " + ticketIssueNo + "\r\n";
+```
+To
+```
+details = "TicketRep: " + cid + " " + nPersons + " " + ticketIssueNo + "\n";
+```
+line 116 Change
+```
+details = "QueueTooLong: " + cid + " " + nPersons+ "\r\n";
+```
+To
+```
+details = "QueueTooLong: " + cid + " " + nPersons+ "\n";
+```
+line 141 Change
+```
+details = "TableAssign: " + ticketAckNo + " " + tidstr + "\r\n";
+```
+To
+```
+details = "TableAssign: " + ticketAckNo + " " + tidstr + "\n";
+```
+
 InThread.
+```
 ```
 ## Class Info: Package AppKickStarter
 | Class Name | Description |
