@@ -1,0 +1,829 @@
+171203-16:45:30 [INFO] -- mt: main thread starting...
+171203-16:45:30 [INFO] -- table 1 created; tid = 1
+171203-16:45:30 [INFO] -- table 0 created; tid = 0
+171203-16:45:30 [INFO] -- table 2 created; tid = 2
+171203-16:45:30 [INFO] -- table 3 created; tid = 3
+171203-16:45:30 [INFO] -- table 4 created; tid = 4
+171203-16:45:30 [INFO] -- table 5 created; tid = 5
+171203-16:45:30 [INFO] -- table 6 created; tid = 6
+171203-16:45:30 [INFO] -- table 7 created; tid = 7
+171203-16:45:30 [INFO] -- table 8 created; tid = 8
+171203-16:45:30 [INFO] -- table 9 created; tid = 9
+171203-16:45:30 [INFO] -- table 10 created; tid = 10
+171203-16:45:30 [INFO] -- table 11 created; tid = 11
+171203-16:45:30 [INFO] -- table 12 created; tid = 12
+171203-16:45:30 [INFO] -- table 13 created; tid = 13
+171203-16:45:30 [INFO] -- table 14 created; tid = 14
+171203-16:45:30 [INFO] -- table 15 created; tid = 15
+171203-16:45:30 [INFO] -- table 16 created; tid = 16
+171203-16:45:30 [INFO] -- table 17 created; tid = 17
+171203-16:45:30 [INFO] -- table 18 created; tid = 18
+171203-16:45:30 [INFO] -- table 19 created; tid = 19
+171203-16:45:30 [INFO] -- table 20 created; tid = 20
+171203-16:45:30 [INFO] -- table 21 created; tid = 21
+171203-16:45:30 [INFO] -- table 22 created; tid = 22
+171203-16:45:30 [INFO] -- table 23 created; tid = 23
+171203-16:45:30 [INFO] -- table 24 created; tid = 24
+171203-16:45:30 [INFO] -- table 25 created; tid = 25
+171203-16:45:30 [INFO] -- table 26 created; tid = 26
+171203-16:45:30 [INFO] -- table 27 created; tid = 27
+171203-16:45:30 [INFO] -- table 28 created; tid = 28
+171203-16:45:30 [INFO] -- table 29 created; tid = 29
+171203-16:45:30 [INFO] -- table 30 created; tid = 30
+171203-16:45:30 [INFO] -- table 31 created; tid = 31
+171203-16:45:50 [INFO] -- 
+171203-16:45:50 [INFO] -- out: out thread starting...
+171203-16:45:50 [INFO] -- 
+171203-16:45:50 [INFO] -- in thread starting...
+171203-16:45:50 [INFO] -- ============================================================
+171203-16:45:50 [INFO] -- sjx: Application Starting...
+171203-16:45:50 [INFO] -- timer: starting...
+171203-16:45:50 [INFO] -- mt: message received: [in (InMsg) -- TicketReq: Client-0001 4].
+171203-16:45:50 [INFO] -- out: message received: [mt (OutMsg) -- TicketRep: Client-0001 4 1
+].
+171203-16:45:50 [INFO] -- out: message received: [10 (OutMsg) -- TicketCall: 1 10
+].
+171203-16:45:50 [INFO] -- mt: message received: [in (InMsg) -- TicketReq: Client-0002 5].
+171203-16:45:50 [INFO] -- out: message received: [mt (OutMsg) -- TicketRep: Client-0002 5 2
+].
+171203-16:45:50 [INFO] -- mt: message received: [in (InMsg) -- TicketAck: 1 10 4].
+171203-16:45:50 [INFO] -- out: message received: [mt (OutMsg) -- TableAssign: 1 10
+].
+171203-16:45:50 [INFO] -- out: message received: [20 (OutMsg) -- TicketCall: 2 20
+].
+171203-16:45:50 [INFO] -- mt: message received: [in (InMsg) -- TicketAck: 2 20 5].
+171203-16:45:50 [INFO] -- out: message received: [mt (OutMsg) -- TableAssign: 2 20
+].
+171203-16:45:50 [INFO] -- mt: message received: [in (InMsg) -- TicketReq: Client-0003 8].
+171203-16:45:50 [INFO] -- out: message received: [mt (OutMsg) -- TicketRep: Client-0003 8 3
+].
+171203-16:45:50 [INFO] -- out: message received: [28 (OutMsg) -- TicketCall: 3 28
+].
+171203-16:45:50 [INFO] -- mt: message received: [in (InMsg) -- TicketAck: 3 28 8].
+171203-16:45:50 [INFO] -- out: message received: [mt (OutMsg) -- TableAssign: 3 28
+].
+171203-16:45:51 [INFO] -- mt: message received: [in (InMsg) -- TicketReq: Client-0004 8].
+171203-16:45:51 [INFO] -- out: message received: [mt (OutMsg) -- TicketRep: Client-0004 8 4
+].
+171203-16:45:51 [INFO] -- out: message received: [29 (OutMsg) -- TicketCall: 4 29
+].
+171203-16:45:51 [INFO] -- mt: message received: [in (InMsg) -- TicketAck: 4 29 8].
+171203-16:45:51 [INFO] -- out: message received: [mt (OutMsg) -- TableAssign: 4 29
+].
+171203-16:45:51 [INFO] -- mt: message received: [in (InMsg) -- TicketReq: Client-0005 2].
+171203-16:45:51 [INFO] -- out: message received: [mt (OutMsg) -- TicketRep: Client-0005 2 5
+].
+171203-16:45:51 [INFO] -- out: message received: [1 (OutMsg) -- TicketCall: 5 1
+].
+171203-16:45:51 [INFO] -- mt: message received: [in (InMsg) -- TicketAck: 5 1 2].
+171203-16:45:51 [INFO] -- out: message received: [mt (OutMsg) -- TableAssign: 5 1
+].
+171203-16:45:51 [INFO] -- mt: message received: [in (InMsg) -- TicketReq: Client-0006 3].
+171203-16:45:51 [INFO] -- out: message received: [mt (OutMsg) -- TicketRep: Client-0006 3 6
+].
+171203-16:45:51 [INFO] -- out: message received: [11 (OutMsg) -- TicketCall: 6 11
+].
+171203-16:45:51 [INFO] -- mt: message received: [in (InMsg) -- TicketAck: 6 11 3].
+171203-16:45:51 [INFO] -- out: message received: [mt (OutMsg) -- TableAssign: 6 11
+].
+171203-16:45:51 [INFO] -- mt: message received: [in (InMsg) -- TicketReq: Client-0007 2].
+171203-16:45:51 [INFO] -- out: message received: [mt (OutMsg) -- TicketRep: Client-0007 2 7
+].
+171203-16:45:51 [INFO] -- out: message received: [0 (OutMsg) -- TicketCall: 7 0
+].
+171203-16:45:51 [INFO] -- mt: message received: [in (InMsg) -- TicketAck: 7 0 2].
+171203-16:45:51 [INFO] -- out: message received: [mt (OutMsg) -- TableAssign: 7 0
+].
+171203-16:45:51 [INFO] -- mt: message received: [in (InMsg) -- TicketReq: Client-0008 5].
+171203-16:45:51 [INFO] -- out: message received: [mt (OutMsg) -- TicketRep: Client-0008 5 8
+].
+171203-16:45:51 [INFO] -- out: message received: [21 (OutMsg) -- TicketCall: 8 21
+].
+171203-16:45:51 [INFO] -- mt: message received: [in (InMsg) -- TicketAck: 8 21 5].
+171203-16:45:51 [INFO] -- out: message received: [mt (OutMsg) -- TableAssign: 8 21
+].
+171203-16:45:51 [INFO] -- mt: message received: [in (InMsg) -- TicketReq: Client-0009 3].
+171203-16:45:51 [INFO] -- out: message received: [mt (OutMsg) -- TicketRep: Client-0009 3 9
+].
+171203-16:45:51 [INFO] -- out: message received: [12 (OutMsg) -- TicketCall: 9 12
+].
+171203-16:45:51 [INFO] -- mt: message received: [in (InMsg) -- TicketAck: 9 12 3].
+171203-16:45:51 [INFO] -- out: message received: [mt (OutMsg) -- TableAssign: 9 12
+].
+171203-16:45:52 [INFO] -- mt: message received: [in (InMsg) -- TicketReq: Client-0010 9].
+171203-16:45:52 [INFO] -- out: message received: [mt (OutMsg) -- TicketRep: Client-0010 9 10
+].
+171203-16:45:52 [INFO] -- out: message received: [30 (OutMsg) -- TicketCall: 10 30
+].
+171203-16:45:52 [INFO] -- mt: message received: [in (InMsg) -- TicketAck: 10 30 9].
+171203-16:45:52 [INFO] -- out: message received: [mt (OutMsg) -- TableAssign: 10 30
+].
+171203-16:45:52 [INFO] -- mt: message received: [in (InMsg) -- TicketReq: Client-0011 2].
+171203-16:45:52 [INFO] -- out: message received: [mt (OutMsg) -- TicketRep: Client-0011 2 11
+].
+171203-16:45:52 [INFO] -- out: message received: [2 (OutMsg) -- TicketCall: 11 2
+].
+171203-16:45:52 [INFO] -- mt: message received: [in (InMsg) -- TicketAck: 11 2 2].
+171203-16:45:52 [INFO] -- out: message received: [mt (OutMsg) -- TableAssign: 11 2
+].
+171203-16:45:52 [INFO] -- mt: message received: [in (InMsg) -- TicketReq: Client-0012 4].
+171203-16:45:52 [INFO] -- out: message received: [mt (OutMsg) -- TicketRep: Client-0012 4 12
+].
+171203-16:45:52 [INFO] -- out: message received: [13 (OutMsg) -- TicketCall: 12 13
+].
+171203-16:45:52 [INFO] -- mt: message received: [in (InMsg) -- TicketAck: 12 13 4].
+171203-16:45:52 [INFO] -- out: message received: [mt (OutMsg) -- TableAssign: 12 13
+].
+171203-16:45:52 [INFO] -- mt: message received: [in (InMsg) -- TicketReq: Client-0013 4].
+171203-16:45:52 [INFO] -- out: message received: [mt (OutMsg) -- TicketRep: Client-0013 4 13
+].
+171203-16:45:52 [INFO] -- out: message received: [14 (OutMsg) -- TicketCall: 13 14
+].
+171203-16:45:52 [INFO] -- mt: message received: [in (InMsg) -- TicketAck: 13 14 4].
+171203-16:45:52 [INFO] -- out: message received: [mt (OutMsg) -- TableAssign: 13 14
+].
+171203-16:45:52 [INFO] -- mt: message received: [in (InMsg) -- TicketReq: Client-0014 6].
+171203-16:45:52 [INFO] -- out: message received: [mt (OutMsg) -- TicketRep: Client-0014 6 14
+].
+171203-16:45:52 [INFO] -- out: message received: [22 (OutMsg) -- TicketCall: 14 22
+].
+171203-16:45:52 [INFO] -- mt: message received: [in (InMsg) -- TicketAck: 14 22 6].
+171203-16:45:52 [INFO] -- out: message received: [mt (OutMsg) -- TableAssign: 14 22
+].
+171203-16:45:53 [INFO] -- mt: message received: [in (InMsg) -- TicketReq: Client-0015 3].
+171203-16:45:53 [INFO] -- out: message received: [mt (OutMsg) -- TicketRep: Client-0015 3 15
+].
+171203-16:45:53 [INFO] -- out: message received: [15 (OutMsg) -- TicketCall: 15 15
+].
+171203-16:45:53 [INFO] -- mt: message received: [in (InMsg) -- TicketAck: 15 15 3].
+171203-16:45:53 [INFO] -- out: message received: [mt (OutMsg) -- TableAssign: 15 15
+].
+171203-16:45:53 [INFO] -- mt: message received: [in (InMsg) -- TicketReq: Client-0016 3].
+171203-16:45:53 [INFO] -- out: message received: [mt (OutMsg) -- TicketRep: Client-0016 3 16
+].
+171203-16:45:53 [INFO] -- out: message received: [16 (OutMsg) -- TicketCall: 16 16
+].
+171203-16:45:53 [INFO] -- mt: message received: [in (InMsg) -- TicketAck: 16 16 3].
+171203-16:45:53 [INFO] -- out: message received: [mt (OutMsg) -- TableAssign: 16 16
+].
+171203-16:45:53 [INFO] -- mt: message received: [in (InMsg) -- TicketReq: Client-0017 6].
+171203-16:45:53 [INFO] -- out: message received: [mt (OutMsg) -- TicketRep: Client-0017 6 17
+].
+171203-16:45:53 [INFO] -- out: message received: [23 (OutMsg) -- TicketCall: 17 23
+].
+171203-16:45:53 [INFO] -- mt: message received: [in (InMsg) -- TicketAck: 17 23 6].
+171203-16:45:53 [INFO] -- out: message received: [mt (OutMsg) -- TableAssign: 17 23
+].
+171203-16:45:53 [INFO] -- mt: message received: [in (InMsg) -- TicketReq: Client-0018 2].
+171203-16:45:53 [INFO] -- out: message received: [mt (OutMsg) -- TicketRep: Client-0018 2 18
+].
+171203-16:45:53 [INFO] -- out: message received: [3 (OutMsg) -- TicketCall: 18 3
+].
+171203-16:45:53 [INFO] -- mt: message received: [in (InMsg) -- TicketAck: 18 3 2].
+171203-16:45:53 [INFO] -- out: message received: [mt (OutMsg) -- TableAssign: 18 3
+].
+171203-16:45:53 [INFO] -- mt: message received: [in (InMsg) -- TicketReq: Client-0019 2].
+171203-16:45:53 [INFO] -- out: message received: [mt (OutMsg) -- TicketRep: Client-0019 2 19
+].
+171203-16:45:53 [INFO] -- out: message received: [4 (OutMsg) -- TicketCall: 19 4
+].
+171203-16:45:53 [INFO] -- mt: message received: [in (InMsg) -- TicketAck: 19 4 2].
+171203-16:45:53 [INFO] -- out: message received: [mt (OutMsg) -- TableAssign: 19 4
+].
+171203-16:45:54 [INFO] -- mt: message received: [in (InMsg) -- TicketReq: Client-0020 6].
+171203-16:45:54 [INFO] -- out: message received: [mt (OutMsg) -- TicketRep: Client-0020 6 20
+].
+171203-16:45:54 [INFO] -- mt: message received: [in (InMsg) -- TicketReq: Client-0021 5].
+171203-16:45:54 [INFO] -- out: message received: [mt (OutMsg) -- TicketRep: Client-0021 5 21
+].
+171203-16:45:54 [INFO] -- out: message received: [24 (OutMsg) -- TicketCall: 20 24
+].
+171203-16:45:54 [INFO] -- mt: message received: [in (InMsg) -- TicketAck: 20 24 6].
+171203-16:45:54 [INFO] -- out: message received: [mt (OutMsg) -- TableAssign: 20 24
+].
+171203-16:45:54 [INFO] -- out: message received: [25 (OutMsg) -- TicketCall: 21 25
+].
+171203-16:45:54 [INFO] -- mt: message received: [in (InMsg) -- TicketAck: 21 25 5].
+171203-16:45:54 [INFO] -- out: message received: [mt (OutMsg) -- TableAssign: 21 25
+].
+171203-16:45:54 [INFO] -- mt: message received: [in (InMsg) -- TicketReq: Client-0022 4].
+171203-16:45:54 [INFO] -- out: message received: [mt (OutMsg) -- TicketRep: Client-0022 4 22
+].
+171203-16:45:54 [INFO] -- out: message received: [17 (OutMsg) -- TicketCall: 22 17
+].
+171203-16:45:54 [INFO] -- mt: message received: [in (InMsg) -- TicketAck: 22 17 4].
+171203-16:45:54 [INFO] -- out: message received: [mt (OutMsg) -- TableAssign: 22 17
+].
+171203-16:45:55 [INFO] -- mt: message received: [in (InMsg) -- TicketReq: Client-0023 4].
+171203-16:45:55 [INFO] -- out: message received: [mt (OutMsg) -- TicketRep: Client-0023 4 23
+].
+171203-16:45:55 [INFO] -- out: message received: [18 (OutMsg) -- TicketCall: 23 18
+].
+171203-16:45:55 [INFO] -- mt: message received: [in (InMsg) -- TicketAck: 23 18 4].
+171203-16:45:55 [INFO] -- out: message received: [mt (OutMsg) -- TableAssign: 23 18
+].
+171203-16:45:55 [INFO] -- mt: message received: [in (InMsg) -- TicketReq: Client-0024 6].
+171203-16:45:55 [INFO] -- out: message received: [mt (OutMsg) -- TicketRep: Client-0024 6 24
+].
+171203-16:45:55 [INFO] -- out: message received: [26 (OutMsg) -- TicketCall: 24 26
+].
+171203-16:45:55 [INFO] -- mt: message received: [in (InMsg) -- TicketAck: 24 26 6].
+171203-16:45:55 [INFO] -- out: message received: [mt (OutMsg) -- TableAssign: 24 26
+].
+171203-16:45:55 [INFO] -- mt: message received: [in (InMsg) -- TicketReq: Client-0025 8].
+171203-16:45:55 [INFO] -- out: message received: [mt (OutMsg) -- TicketRep: Client-0025 8 25
+].
+171203-16:45:56 [INFO] -- mt: message received: [in (InMsg) -- TicketReq: Client-0026 6].
+171203-16:45:56 [INFO] -- out: message received: [mt (OutMsg) -- TicketRep: Client-0026 6 26
+].
+171203-16:45:56 [INFO] -- mt: message received: [in (InMsg) -- TicketReq: Client-0027 2].
+171203-16:45:56 [INFO] -- out: message received: [mt (OutMsg) -- TicketRep: Client-0027 2 27
+].
+171203-16:45:56 [INFO] -- out: message received: [27 (OutMsg) -- TicketCall: 26 27
+].
+171203-16:45:56 [INFO] -- out: message received: [5 (OutMsg) -- TicketCall: 27 5
+].
+171203-16:45:56 [INFO] -- mt: message received: [in (InMsg) -- TicketAck: 26 27 6].
+171203-16:45:56 [INFO] -- out: message received: [mt (OutMsg) -- TableAssign: 26 27
+].
+171203-16:45:56 [INFO] -- mt: message received: [in (InMsg) -- TicketAck: 27 5 2].
+171203-16:45:56 [INFO] -- out: message received: [mt (OutMsg) -- TableAssign: 27 5
+].
+171203-16:45:56 [INFO] -- mt: message received: [in (InMsg) -- TicketReq: Client-0028 3].
+171203-16:45:56 [INFO] -- out: message received: [mt (OutMsg) -- TicketRep: Client-0028 3 28
+].
+171203-16:45:56 [INFO] -- out: message received: [19 (OutMsg) -- TicketCall: 28 19
+].
+171203-16:45:56 [INFO] -- mt: message received: [in (InMsg) -- TicketAck: 28 19 3].
+171203-16:45:56 [INFO] -- out: message received: [mt (OutMsg) -- TableAssign: 28 19
+].
+171203-16:45:56 [INFO] -- mt: message received: [in (InMsg) -- TicketReq: Client-0029 4].
+171203-16:45:56 [INFO] -- out: message received: [mt (OutMsg) -- TicketRep: Client-0029 4 29
+].
+171203-16:45:56 [INFO] -- mt: message received: [in (InMsg) -- TicketReq: Client-0030 4].
+171203-16:45:56 [INFO] -- out: message received: [mt (OutMsg) -- TicketRep: Client-0030 4 30
+].
+171203-16:45:57 [INFO] -- mt: message received: [in (InMsg) -- TicketReq: Client-0031 2].
+171203-16:45:57 [INFO] -- out: message received: [mt (OutMsg) -- TicketRep: Client-0031 2 31
+].
+171203-16:45:57 [INFO] -- out: message received: [6 (OutMsg) -- TicketCall: 31 6
+].
+171203-16:45:57 [INFO] -- mt: message received: [in (InMsg) -- TicketAck: 31 6 2].
+171203-16:45:57 [INFO] -- out: message received: [mt (OutMsg) -- TableAssign: 31 6
+].
+171203-16:45:57 [INFO] -- mt: message received: [in (InMsg) -- TicketReq: Client-0032 8].
+171203-16:45:57 [INFO] -- out: message received: [mt (OutMsg) -- TicketRep: Client-0032 8 32
+].
+171203-16:45:57 [INFO] -- mt: message received: [in (InMsg) -- TicketReq: Client-0033 6].
+171203-16:45:57 [INFO] -- out: message received: [mt (OutMsg) -- TicketRep: Client-0033 6 33
+].
+171203-16:45:57 [INFO] -- mt: message received: [in (InMsg) -- TicketReq: Client-0034 4].
+171203-16:45:57 [INFO] -- out: message received: [mt (OutMsg) -- TicketRep: Client-0034 4 34
+].
+171203-16:45:57 [INFO] -- mt: message received: [in (InMsg) -- TicketReq: Client-0035 2].
+171203-16:45:57 [INFO] -- out: message received: [mt (OutMsg) -- TicketRep: Client-0035 2 35
+].
+171203-16:45:57 [INFO] -- out: message received: [7 (OutMsg) -- TicketCall: 35 7
+].
+171203-16:45:57 [INFO] -- mt: message received: [in (InMsg) -- TicketAck: 35 7 2].
+171203-16:45:57 [INFO] -- out: message received: [mt (OutMsg) -- TableAssign: 35 7
+].
+171203-16:45:57 [INFO] -- mt: message received: [in (InMsg) -- TicketReq: Client-0036 2].
+171203-16:45:57 [INFO] -- out: message received: [mt (OutMsg) -- TicketRep: Client-0036 2 36
+].
+171203-16:45:58 [INFO] -- out: message received: [8 (OutMsg) -- TicketCall: 36 8
+].
+171203-16:45:58 [INFO] -- mt: message received: [in (InMsg) -- TicketAck: 36 8 2].
+171203-16:45:58 [INFO] -- out: message received: [mt (OutMsg) -- TableAssign: 36 8
+].
+171203-16:45:58 [INFO] -- mt: message received: [in (InMsg) -- TicketReq: Client-0037 2].
+171203-16:45:58 [INFO] -- out: message received: [mt (OutMsg) -- TicketRep: Client-0037 2 37
+].
+171203-16:45:58 [INFO] -- mt: message received: [in (InMsg) -- TicketReq: Client-0038 5].
+171203-16:45:58 [INFO] -- out: message received: [mt (OutMsg) -- TicketRep: Client-0038 5 38
+].
+171203-16:45:58 [INFO] -- out: message received: [9 (OutMsg) -- TicketCall: 37 9
+].
+171203-16:45:58 [INFO] -- mt: message received: [in (InMsg) -- TicketAck: 37 9 2].
+171203-16:45:58 [INFO] -- out: message received: [mt (OutMsg) -- TableAssign: 37 9
+].
+171203-16:45:58 [INFO] -- mt: message received: [in (InMsg) -- TicketReq: Client-0039 2].
+171203-16:45:58 [INFO] -- out: message received: [mt (OutMsg) -- TicketRep: Client-0039 2 39
+].
+171203-16:45:58 [INFO] -- mt: message received: [in (InMsg) -- TicketReq: Client-0040 8].
+171203-16:45:58 [INFO] -- out: message received: [mt (OutMsg) -- TicketRep: Client-0040 8 40
+].
+171203-16:45:58 [INFO] -- mt: message received: [in (InMsg) -- TicketReq: Client-0041 3].
+171203-16:45:58 [INFO] -- out: message received: [mt (OutMsg) -- TicketRep: Client-0041 3 41
+].
+171203-16:45:58 [INFO] -- mt: message received: [in (InMsg) -- TicketReq: Client-0042 3].
+171203-16:45:58 [INFO] -- out: message received: [mt (OutMsg) -- TicketRep: Client-0042 3 42
+].
+171203-16:45:59 [INFO] -- mt: message received: [in (InMsg) -- TicketReq: Client-0043 5].
+171203-16:45:59 [INFO] -- out: message received: [mt (OutMsg) -- TicketRep: Client-0043 5 43
+].
+171203-16:45:59 [INFO] -- mt: message received: [in (InMsg) -- TicketReq: Client-0044 8].
+171203-16:45:59 [INFO] -- out: message received: [mt (OutMsg) -- TicketRep: Client-0044 8 44
+].
+171203-16:45:59 [INFO] -- mt: message received: [in (InMsg) -- TicketReq: Client-0045 3].
+171203-16:45:59 [INFO] -- out: message received: [mt (OutMsg) -- TicketRep: Client-0045 3 45
+].
+171203-16:45:59 [INFO] -- mt: message received: [in (InMsg) -- TicketReq: Client-0046 2].
+171203-16:45:59 [INFO] -- out: message received: [mt (OutMsg) -- TicketRep: Client-0046 2 46
+].
+171203-16:45:59 [INFO] -- mt: message received: [in (InMsg) -- TicketReq: Client-0047 2].
+171203-16:45:59 [INFO] -- out: message received: [mt (OutMsg) -- TicketRep: Client-0047 2 47
+].
+171203-16:45:59 [INFO] -- mt: message received: [in (InMsg) -- TicketReq: Client-0048 5].
+171203-16:45:59 [INFO] -- out: message received: [mt (OutMsg) -- TicketRep: Client-0048 5 48
+].
+171203-16:46:00 [INFO] -- mt: message received: [in (InMsg) -- TicketReq: Client-0049 6].
+171203-16:46:00 [INFO] -- out: message received: [mt (OutMsg) -- TicketRep: Client-0049 6 49
+].
+171203-16:46:00 [INFO] -- mt: message received: [in (InMsg) -- TicketReq: Client-0050 2].
+171203-16:46:00 [INFO] -- out: message received: [mt (OutMsg) -- TicketRep: Client-0050 2 50
+].
+171203-16:46:00 [INFO] -- mt: message received: [in (InMsg) -- TicketReq: Client-0051 5].
+171203-16:46:00 [INFO] -- out: message received: [mt (OutMsg) -- TicketRep: Client-0051 5 51
+].
+171203-16:46:00 [INFO] -- mt: message received: [in (InMsg) -- TicketReq: Client-0052 2].
+171203-16:46:00 [INFO] -- out: message received: [mt (OutMsg) -- TicketRep: Client-0052 2 52
+].
+171203-16:46:01 [INFO] -- mt: message received: [in (InMsg) -- TicketReq: Client-0053 6].
+171203-16:46:01 [INFO] -- out: message received: [mt (OutMsg) -- TicketRep: Client-0053 6 53
+].
+171203-16:46:01 [INFO] -- mt: message received: [in (InMsg) -- TicketReq: Client-0054 6].
+171203-16:46:01 [INFO] -- out: message received: [mt (OutMsg) -- TicketRep: Client-0054 6 54
+].
+171203-16:46:01 [INFO] -- mt: message received: [in (InMsg) -- TicketReq: Client-0055 2].
+171203-16:46:01 [INFO] -- out: message received: [mt (OutMsg) -- TicketRep: Client-0055 2 55
+].
+171203-16:46:01 [INFO] -- mt: message received: [in (InMsg) -- CheckOut: 4 328].
+171203-16:46:01 [INFO] -- 4: message received: [mt (CheckOut) -- Client CheckOut!
+].
+171203-16:46:01 [INFO] -- 4: Client at Table 4 has CheckOut.
+171203-16:46:01 [INFO] -- out: message received: [4 (OutMsg) -- TicketCall: 39 4
+].
+171203-16:46:01 [INFO] -- mt: message received: [in (InMsg) -- TicketAck: 39 4 2].
+171203-16:46:01 [INFO] -- out: message received: [mt (OutMsg) -- TableAssign: 39 4
+].
+171203-16:46:01 [INFO] -- mt: message received: [in (InMsg) -- TicketReq: Client-0056 2].
+171203-16:46:01 [INFO] -- out: message received: [mt (OutMsg) -- TicketRep: Client-0056 2 56
+].
+171203-16:46:01 [INFO] -- mt: message received: [in (InMsg) -- TicketReq: Client-0057 9].
+171203-16:46:01 [INFO] -- out: message received: [mt (OutMsg) -- TicketRep: Client-0057 9 57
+].
+171203-16:46:01 [INFO] -- out: message received: [31 (OutMsg) -- TicketCall: 57 31
+].
+171203-16:46:01 [INFO] -- mt: message received: [in (InMsg) -- TicketAck: 57 31 9].
+171203-16:46:01 [INFO] -- out: message received: [mt (OutMsg) -- TableAssign: 57 31
+].
+171203-16:46:02 [INFO] -- mt: message received: [in (InMsg) -- CheckOut: 14 944].
+171203-16:46:02 [INFO] -- 14: message received: [mt (CheckOut) -- Client CheckOut!
+].
+171203-16:46:02 [INFO] -- 14: Client at Table 14 has CheckOut.
+171203-16:46:02 [INFO] -- out: message received: [14 (OutMsg) -- TicketCall: 29 14
+].
+171203-16:46:02 [INFO] -- mt: message received: [in (InMsg) -- TicketAck: 29 14 4].
+171203-16:46:02 [INFO] -- out: message received: [mt (OutMsg) -- TableAssign: 29 14
+].
+171203-16:46:02 [INFO] -- mt: message received: [in (InMsg) -- TicketReq: Client-0058 2].
+171203-16:46:02 [INFO] -- out: message received: [mt (OutMsg) -- TicketRep: Client-0058 2 58
+].
+171203-16:46:02 [INFO] -- mt: message received: [in (InMsg) -- TicketReq: Client-0059 5].
+171203-16:46:02 [INFO] -- out: message received: [mt (OutMsg) -- TicketRep: Client-0059 5 59
+].
+171203-16:46:02 [INFO] -- mt: message received: [in (InMsg) -- TicketReq: Client-0060 4].
+171203-16:46:02 [INFO] -- out: message received: [mt (OutMsg) -- TicketRep: Client-0060 4 60
+].
+171203-16:46:03 [INFO] -- mt: message received: [in (InMsg) -- TicketReq: Client-0061 8].
+171203-16:46:03 [INFO] -- out: message received: [mt (OutMsg) -- TicketRep: Client-0061 8 61
+].
+171203-16:46:03 [INFO] -- mt: message received: [in (InMsg) -- TicketReq: Client-0062 9].
+171203-16:46:03 [INFO] -- out: message received: [mt (OutMsg) -- TicketRep: Client-0062 9 62
+].
+171203-16:46:03 [INFO] -- mt: message received: [in (InMsg) -- TicketReq: Client-0063 2].
+171203-16:46:03 [INFO] -- out: message received: [mt (OutMsg) -- TicketRep: Client-0063 2 63
+].
+171203-16:46:03 [INFO] -- mt: message received: [in (InMsg) -- TicketReq: Client-0064 6].
+171203-16:46:03 [INFO] -- out: message received: [mt (OutMsg) -- TicketRep: Client-0064 6 64
+].
+171203-16:46:03 [INFO] -- mt: message received: [in (InMsg) -- TicketReq: Client-0065 2].
+171203-16:46:03 [INFO] -- out: message received: [mt (OutMsg) -- TicketRep: Client-0065 2 65
+].
+171203-16:46:04 [INFO] -- mt: message received: [in (InMsg) -- TicketReq: Client-0066 4].
+171203-16:46:04 [INFO] -- out: message received: [mt (OutMsg) -- TicketRep: Client-0066 4 66
+].
+171203-16:46:04 [INFO] -- mt: message received: [in (InMsg) -- TicketReq: Client-0067 2].
+171203-16:46:04 [INFO] -- out: message received: [mt (OutMsg) -- TicketRep: Client-0067 2 67
+].
+171203-16:46:04 [INFO] -- mt: message received: [in (InMsg) -- TicketReq: Client-0068 5].
+171203-16:46:04 [INFO] -- out: message received: [mt (OutMsg) -- QueueTooLong: Client-0068 5
+].
+171203-16:46:04 [INFO] -- mt: message received: [in (InMsg) -- TicketReq: Client-0069 3].
+171203-16:46:04 [INFO] -- out: message received: [mt (OutMsg) -- TicketRep: Client-0069 3 69
+].
+171203-16:46:05 [INFO] -- mt: message received: [in (InMsg) -- TicketReq: Client-0070 6].
+171203-16:46:05 [INFO] -- out: message received: [mt (OutMsg) -- QueueTooLong: Client-0070 6
+].
+171203-16:46:05 [INFO] -- mt: message received: [in (InMsg) -- TicketReq: Client-0071 2].
+171203-16:46:05 [INFO] -- out: message received: [mt (OutMsg) -- QueueTooLong: Client-0071 2
+].
+171203-16:46:05 [INFO] -- mt: message received: [in (InMsg) -- TicketReq: Client-0072 3].
+171203-16:46:05 [INFO] -- out: message received: [mt (OutMsg) -- TicketRep: Client-0072 3 72
+].
+171203-16:46:05 [INFO] -- mt: message received: [in (InMsg) -- TicketReq: Client-0073 4].
+171203-16:46:05 [INFO] -- out: message received: [mt (OutMsg) -- TicketRep: Client-0073 4 73
+].
+171203-16:46:05 [INFO] -- mt: message received: [in (InMsg) -- CheckOut: 20 825].
+171203-16:46:05 [INFO] -- 20: message received: [mt (CheckOut) -- Client CheckOut!
+].
+171203-16:46:05 [INFO] -- 20: Client at Table 20 has CheckOut.
+171203-16:46:05 [INFO] -- out: message received: [20 (OutMsg) -- TicketCall: 33 20
+].
+171203-16:46:05 [INFO] -- mt: message received: [in (InMsg) -- CheckOut: 21 1070].
+171203-16:46:05 [INFO] -- 21: message received: [mt (CheckOut) -- Client CheckOut!
+].
+171203-16:46:05 [INFO] -- 21: Client at Table 21 has CheckOut.
+171203-16:46:05 [INFO] -- out: message received: [20 (OutMsg) -- TicketCall: 38 20
+].
+171203-16:46:05 [INFO] -- mt: message received: [in (InMsg) -- TicketAck: 38 20 5].
+171203-16:46:05 [INFO] -- out: message received: [mt (OutMsg) -- TableAssign: 38 20
+].
+171203-16:46:05 [INFO] -- mt: message received: [in (InMsg) -- TicketReq: Client-0074 6].
+171203-16:46:05 [INFO] -- out: message received: [mt (OutMsg) -- TicketRep: Client-0074 6 74
+].
+171203-16:46:05 [INFO] -- out: message received: [21 (OutMsg) -- TicketCall: 43 21
+].
+171203-16:46:05 [INFO] -- mt: message received: [in (InMsg) -- TicketAck: 43 21 5].
+171203-16:46:05 [INFO] -- out: message received: [mt (OutMsg) -- TableAssign: 43 21
+].
+171203-16:46:05 [INFO] -- mt: message received: [in (InMsg) -- TicketReq: Client-0075 6].
+171203-16:46:05 [INFO] -- out: message received: [mt (OutMsg) -- TicketRep: Client-0075 6 75
+].
+171203-16:46:06 [INFO] -- mt: message received: [in (InMsg) -- TicketReq: Client-0076 2].
+171203-16:46:06 [INFO] -- out: message received: [mt (OutMsg) -- QueueTooLong: Client-0076 2
+].
+171203-16:46:06 [INFO] -- mt: message received: [in (InMsg) -- TicketReq: Client-0077 3].
+171203-16:46:06 [INFO] -- out: message received: [mt (OutMsg) -- QueueTooLong: Client-0077 3
+].
+171203-16:46:06 [INFO] -- mt: message received: [in (InMsg) -- TicketReq: Client-0078 2].
+171203-16:46:06 [INFO] -- out: message received: [mt (OutMsg) -- QueueTooLong: Client-0078 2
+].
+171203-16:46:06 [INFO] -- mt: message received: [in (InMsg) -- CheckOut: 13 888].
+171203-16:46:06 [INFO] -- 13: message received: [mt (CheckOut) -- Client CheckOut!
+].
+171203-16:46:06 [INFO] -- 13: Client at Table 13 has CheckOut.
+171203-16:46:06 [INFO] -- out: message received: [13 (OutMsg) -- TicketCall: 30 13
+].
+171203-16:46:06 [INFO] -- mt: message received: [in (InMsg) -- TicketReq: Client-0079 9].
+171203-16:46:06 [INFO] -- out: message received: [mt (OutMsg) -- TicketRep: Client-0079 9 79
+].
+171203-16:46:06 [INFO] -- mt: message received: [in (InMsg) -- TicketReq: Client-0080 10].
+171203-16:46:06 [INFO] -- out: message received: [mt (OutMsg) -- TicketRep: Client-0080 10 80
+].
+171203-16:46:06 [INFO] -- mt: message received: [in (InMsg) -- TicketReq: Client-0081 6].
+171203-16:46:06 [INFO] -- out: message received: [mt (OutMsg) -- TicketRep: Client-0081 6 81
+].
+171203-16:46:06 [INFO] -- mt: message received: [in (InMsg) -- TicketReq: Client-0082 5].
+171203-16:46:06 [INFO] -- out: message received: [mt (OutMsg) -- QueueTooLong: Client-0082 5
+].
+171203-16:46:06 [INFO] -- out: message received: [13 (OutMsg) -- TicketCall: 34 13
+].
+171203-16:46:06 [INFO] -- mt: message received: [in (InMsg) -- TicketReq: Client-0083 4].
+171203-16:46:06 [INFO] -- out: message received: [mt (OutMsg) -- TicketRep: Client-0083 4 83
+].
+171203-16:46:06 [INFO] -- out: message received: [13 (OutMsg) -- TicketCall: 41 13
+].
+171203-16:46:06 [INFO] -- mt: message received: [in (InMsg) -- TicketAck: 41 13 3].
+171203-16:46:06 [INFO] -- out: message received: [mt (OutMsg) -- TableAssign: 41 13
+].
+171203-16:46:07 [INFO] -- mt: message received: [in (InMsg) -- TicketReq: Client-0084 6].
+171203-16:46:07 [INFO] -- out: message received: [mt (OutMsg) -- QueueTooLong: Client-0084 6
+].
+171203-16:46:07 [INFO] -- mt: message received: [in (InMsg) -- TicketReq: Client-0085 4].
+171203-16:46:07 [INFO] -- out: message received: [mt (OutMsg) -- TicketRep: Client-0085 4 85
+].
+171203-16:46:07 [INFO] -- mt: message received: [in (InMsg) -- TicketReq: Client-0086 8].
+171203-16:46:07 [INFO] -- out: message received: [mt (OutMsg) -- TicketRep: Client-0086 8 86
+].
+171203-16:46:07 [INFO] -- mt: message received: [in (InMsg) -- TicketReq: Client-0087 2].
+171203-16:46:07 [INFO] -- out: message received: [mt (OutMsg) -- QueueTooLong: Client-0087 2
+].
+171203-16:46:07 [INFO] -- mt: message received: [in (InMsg) -- TicketReq: Client-0088 8].
+171203-16:46:07 [INFO] -- out: message received: [mt (OutMsg) -- TicketRep: Client-0088 8 88
+].
+171203-16:46:07 [INFO] -- mt: message received: [in (InMsg) -- CheckOut: 28 1336].
+171203-16:46:07 [INFO] -- 28: message received: [mt (CheckOut) -- Client CheckOut!
+].
+171203-16:46:07 [INFO] -- 28: Client at Table 28 has CheckOut.
+171203-16:46:07 [INFO] -- out: message received: [28 (OutMsg) -- TicketCall: 25 28
+].
+171203-16:46:07 [INFO] -- mt: message received: [in (InMsg) -- TicketReq: Client-0089 2].
+171203-16:46:07 [INFO] -- out: message received: [mt (OutMsg) -- QueueTooLong: Client-0089 2
+].
+171203-16:46:07 [INFO] -- out: message received: [28 (OutMsg) -- TicketCall: 32 28
+].
+171203-16:46:08 [INFO] -- mt: message received: [in (InMsg) -- TicketReq: Client-0090 4].
+171203-16:46:08 [INFO] -- out: message received: [mt (OutMsg) -- TicketRep: Client-0090 4 90
+].
+171203-16:46:08 [INFO] -- out: message received: [28 (OutMsg) -- TicketCall: 40 28
+].
+171203-16:46:08 [INFO] -- out: message received: [28 (OutMsg) -- TicketCall: 44 28
+].
+171203-16:46:08 [INFO] -- mt: message received: [in (InMsg) -- TicketReq: Client-0091 4].
+171203-16:46:08 [INFO] -- out: message received: [mt (OutMsg) -- QueueTooLong: Client-0091 4
+].
+171203-16:46:08 [INFO] -- mt: message received: [in (InMsg) -- TicketReq: Client-0092 2].
+171203-16:46:08 [INFO] -- out: message received: [mt (OutMsg) -- QueueTooLong: Client-0092 2
+].
+171203-16:46:08 [INFO] -- out: message received: [28 (OutMsg) -- TicketCall: 61 28
+].
+171203-16:46:08 [INFO] -- mt: message received: [in (InMsg) -- TicketAck: 61 28 8].
+171203-16:46:08 [INFO] -- out: message received: [mt (OutMsg) -- TableAssign: 61 28
+].
+171203-16:46:08 [INFO] -- mt: message received: [in (InMsg) -- TicketReq: Client-0093 3].
+171203-16:46:08 [INFO] -- out: message received: [mt (OutMsg) -- QueueTooLong: Client-0093 3
+].
+171203-16:46:08 [INFO] -- mt: message received: [in (InMsg) -- TicketReq: Client-0094 3].
+171203-16:46:08 [INFO] -- out: message received: [mt (OutMsg) -- QueueTooLong: Client-0094 3
+].
+171203-16:46:08 [INFO] -- mt: message received: [in (InMsg) -- TicketReq: Client-0095 6].
+171203-16:46:08 [INFO] -- out: message received: [mt (OutMsg) -- QueueTooLong: Client-0095 6
+].
+171203-16:46:08 [INFO] -- mt: message received: [in (InMsg) -- TicketReq: Client-0096 4].
+171203-16:46:08 [INFO] -- out: message received: [mt (OutMsg) -- QueueTooLong: Client-0096 4
+].
+171203-16:46:08 [INFO] -- mt: message received: [in (InMsg) -- CheckOut: 2 400].
+171203-16:46:08 [INFO] -- 2: message received: [mt (CheckOut) -- Client CheckOut!
+].
+171203-16:46:08 [INFO] -- 2: Client at Table 2 has CheckOut.
+171203-16:46:08 [INFO] -- mt: message received: [in (InMsg) -- TicketReq: Client-0097 3].
+171203-16:46:08 [INFO] -- out: message received: [mt (OutMsg) -- QueueTooLong: Client-0097 3
+].
+171203-16:46:08 [INFO] -- out: message received: [2 (OutMsg) -- TicketCall: 46 2
+].
+171203-16:46:08 [INFO] -- mt: message received: [in (InMsg) -- CheckOut: 10 344].
+171203-16:46:08 [INFO] -- 10: message received: [mt (CheckOut) -- Client CheckOut!
+].
+171203-16:46:08 [INFO] -- 10: Client at Table 10 has CheckOut.
+171203-16:46:08 [INFO] -- out: message received: [10 (OutMsg) -- TicketCall: 42 10
+].
+171203-16:46:08 [INFO] -- mt: message received: [in (InMsg) -- CheckOut: 1 378].
+171203-16:46:08 [INFO] -- 1: message received: [mt (CheckOut) -- Client CheckOut!
+].
+171203-16:46:08 [INFO] -- 1: Client at Table 1 has CheckOut.
+171203-16:46:08 [INFO] -- out: message received: [2 (OutMsg) -- TicketCall: 47 2
+].
+171203-16:46:08 [INFO] -- mt: message received: [in (InMsg) -- TicketReq: Client-0098 10].
+171203-16:46:08 [INFO] -- out: message received: [mt (OutMsg) -- TicketRep: Client-0098 10 98
+].
+171203-16:46:08 [INFO] -- out: message received: [10 (OutMsg) -- TicketCall: 45 10
+].
+171203-16:46:08 [INFO] -- out: message received: [2 (OutMsg) -- TicketCall: 50 2
+].
+171203-16:46:08 [INFO] -- mt: message received: [in (InMsg) -- CheckOut: 12 489].
+171203-16:46:08 [INFO] -- 12: message received: [mt (CheckOut) -- Client CheckOut!
+].
+171203-16:46:08 [INFO] -- 12: Client at Table 12 has CheckOut.
+171203-16:46:09 [INFO] -- out: message received: [10 (OutMsg) -- TicketCall: 60 10
+].
+171203-16:46:09 [INFO] -- mt: message received: [in (InMsg) -- TicketAck: 60 10 4].
+171203-16:46:09 [INFO] -- out: message received: [mt (OutMsg) -- TableAssign: 60 10
+].
+171203-16:46:09 [INFO] -- out: message received: [12 (OutMsg) -- TicketCall: 66 12
+].
+171203-16:46:09 [INFO] -- mt: message received: [in (InMsg) -- TicketAck: 66 12 4].
+171203-16:46:09 [INFO] -- out: message received: [mt (OutMsg) -- TableAssign: 66 12
+].
+171203-16:46:09 [INFO] -- mt: message received: [in (InMsg) -- CheckOut: 17 1080].
+171203-16:46:09 [INFO] -- 17: message received: [mt (CheckOut) -- Client CheckOut!
+].
+171203-16:46:09 [INFO] -- 17: Client at Table 17 has CheckOut.
+171203-16:46:09 [INFO] -- out: message received: [2 (OutMsg) -- TicketCall: 52 2
+].
+171203-16:46:09 [INFO] -- out: message received: [17 (OutMsg) -- TicketCall: 69 17
+].
+171203-16:46:09 [INFO] -- mt: message received: [in (InMsg) -- TicketAck: 69 17 3].
+171203-16:46:09 [INFO] -- out: message received: [mt (OutMsg) -- TableAssign: 69 17
+].
+171203-16:46:09 [INFO] -- out: message received: [2 (OutMsg) -- TicketCall: 55 2
+].
+171203-16:46:09 [INFO] -- out: message received: [2 (OutMsg) -- TicketCall: 56 2
+].
+171203-16:46:09 [INFO] -- out: message received: [2 (OutMsg) -- TicketCall: 58 2
+].
+171203-16:46:09 [INFO] -- mt: message received: [in (InMsg) -- TicketAck: 58 2 2].
+171203-16:46:09 [INFO] -- out: message received: [mt (OutMsg) -- TableAssign: 58 2
+].
+171203-16:46:09 [INFO] -- out: message received: [1 (OutMsg) -- TicketCall: 63 1
+].
+171203-16:46:09 [INFO] -- mt: message received: [in (InMsg) -- TicketAck: 63 1 2].
+171203-16:46:09 [INFO] -- out: message received: [mt (OutMsg) -- TableAssign: 63 1
+].
+171203-16:46:10 [INFO] -- mt: message received: [in (InMsg) -- CheckOut: 30 2043].
+171203-16:46:10 [INFO] -- 30: message received: [mt (CheckOut) -- Client CheckOut!
+].
+171203-16:46:10 [INFO] -- 30: Client at Table 30 has CheckOut.
+171203-16:46:10 [INFO] -- out: message received: [30 (OutMsg) -- TicketCall: 62 30
+].
+171203-16:46:10 [INFO] -- mt: message received: [in (InMsg) -- TicketAck: 62 30 9].
+171203-16:46:10 [INFO] -- out: message received: [mt (OutMsg) -- TableAssign: 62 30
+].
+171203-16:46:10 [INFO] -- mt: message received: [in (InMsg) -- CheckOut: 15 522].
+171203-16:46:10 [INFO] -- 15: message received: [mt (CheckOut) -- Client CheckOut!
+].
+171203-16:46:10 [INFO] -- 15: Client at Table 15 has CheckOut.
+171203-16:46:10 [INFO] -- out: message received: [15 (OutMsg) -- TicketCall: 72 15
+].
+171203-16:46:10 [INFO] -- mt: message received: [in (InMsg) -- TicketAck: 72 15 3].
+171203-16:46:10 [INFO] -- out: message received: [mt (OutMsg) -- TableAssign: 72 15
+].
+171203-16:46:10 [INFO] -- mt: message received: [in (InMsg) -- TicketReq: Client-0099 3].
+171203-16:46:10 [INFO] -- out: message received: [mt (OutMsg) -- TicketRep: Client-0099 3 99
+].
+171203-16:46:10 [INFO] -- mt: message received: [in (InMsg) -- CheckOut: 16 531].
+171203-16:46:10 [INFO] -- 16: message received: [mt (CheckOut) -- Client CheckOut!
+].
+171203-16:46:10 [INFO] -- 16: Client at Table 16 has CheckOut.
+171203-16:46:10 [INFO] -- out: message received: [16 (OutMsg) -- TicketCall: 73 16
+].
+171203-16:46:10 [INFO] -- mt: message received: [in (InMsg) -- TicketAck: 73 16 4].
+171203-16:46:10 [INFO] -- out: message received: [mt (OutMsg) -- TableAssign: 73 16
+].
+171203-16:46:10 [INFO] -- mt: message received: [in (InMsg) -- TicketReq: Client-0100 8].
+171203-16:46:10 [INFO] -- out: message received: [mt (OutMsg) -- TicketRep: Client-0100 8 100
+].
+171203-16:46:10 [INFO] -- mt: message received: [in (InMsg) -- TicketReq: Client-0101 5].
+171203-16:46:10 [INFO] -- out: message received: [mt (OutMsg) -- QueueTooLong: Client-0101 5
+].
+171203-16:46:10 [INFO] -- mt: message received: [in (InMsg) -- TicketReq: Client-0102 4].
+171203-16:46:10 [INFO] -- out: message received: [mt (OutMsg) -- TicketRep: Client-0102 4 102
+].
+171203-16:46:11 [INFO] -- mt: message received: [in (InMsg) -- TicketReq: Client-0103 6].
+171203-16:46:11 [INFO] -- out: message received: [mt (OutMsg) -- QueueTooLong: Client-0103 6
+].
+171203-16:46:11 [INFO] -- mt: message received: [in (InMsg) -- CheckOut: 3 240].
+171203-16:46:11 [INFO] -- 3: message received: [mt (CheckOut) -- Client CheckOut!
+].
+171203-16:46:11 [INFO] -- 3: Client at Table 3 has CheckOut.
+171203-16:46:11 [INFO] -- out: message received: [3 (OutMsg) -- TicketCall: 65 3
+].
+171203-16:46:11 [INFO] -- mt: message received: [in (InMsg) -- TicketAck: 65 3 2].
+171203-16:46:11 [INFO] -- out: message received: [mt (OutMsg) -- TableAssign: 65 3
+].
+171203-16:46:11 [INFO] -- mt: message received: [in (InMsg) -- TicketReq: Client-0104 2].
+171203-16:46:11 [INFO] -- out: message received: [mt (OutMsg) -- TicketRep: Client-0104 2 104
+].
+171203-16:46:11 [INFO] -- mt: message received: [in (InMsg) -- CheckOut: 0 446].
+171203-16:46:11 [INFO] -- 0: message received: [mt (CheckOut) -- Client CheckOut!
+].
+171203-16:46:11 [INFO] -- 0: Client at Table 0 has CheckOut.
+171203-16:46:11 [INFO] -- out: message received: [0 (OutMsg) -- TicketCall: 67 0
+].
+171203-16:46:11 [INFO] -- mt: message received: [in (InMsg) -- TicketAck: 67 0 2].
+171203-16:46:11 [INFO] -- out: message received: [mt (OutMsg) -- TableAssign: 67 0
+].
+171203-16:46:11 [INFO] -- mt: message received: [in (InMsg) -- TicketReq: Client-0105 2].
+171203-16:46:11 [INFO] -- out: message received: [mt (OutMsg) -- TicketRep: Client-0105 2 105
+].
+171203-16:46:11 [INFO] -- mt: message received: [in (InMsg) -- CheckOut: 22 1392].
+171203-16:46:11 [INFO] -- 22: message received: [mt (CheckOut) -- Client CheckOut!
+].
+171203-16:46:11 [INFO] -- 22: Client at Table 22 has CheckOut.
+171203-16:46:11 [INFO] -- out: message received: [22 (OutMsg) -- TicketCall: 48 22
+].
+171203-16:46:11 [INFO] -- mt: message received: [in (InMsg) -- TicketReq: Client-0106 10].
+171203-16:46:11 [INFO] -- out: message received: [mt (OutMsg) -- TicketRep: Client-0106 10 106
+].
+171203-16:46:11 [INFO] -- mt: message received: [in (InMsg) -- CheckOut: 5 550].
+171203-16:46:11 [INFO] -- 5: message received: [mt (CheckOut) -- Client CheckOut!
+].
+171203-16:46:11 [INFO] -- 5: Client at Table 5 has CheckOut.
+171203-16:46:11 [INFO] -- out: message received: [5 (OutMsg) -- TicketCall: 104 5
+].
+171203-16:46:11 [INFO] -- mt: message received: [in (InMsg) -- TicketAck: 104 5 2].
+171203-16:46:11 [INFO] -- out: message received: [mt (OutMsg) -- TableAssign: 104 5
+].
+171203-16:46:11 [INFO] -- out: message received: [22 (OutMsg) -- TicketCall: 49 22
+].
+171203-16:46:11 [INFO] -- mt: message received: [in (InMsg) -- CheckOut: 9 438].
+171203-16:46:11 [INFO] -- 9: message received: [mt (CheckOut) -- Client CheckOut!
+].
+171203-16:46:11 [INFO] -- 9: Client at Table 9 has CheckOut.
+171203-16:46:11 [INFO] -- out: message received: [9 (OutMsg) -- TicketCall: 105 9
+].
+171203-16:46:11 [INFO] -- mt: message received: [in (InMsg) -- TicketAck: 105 9 2].
+171203-16:46:11 [INFO] -- out: message received: [mt (OutMsg) -- TableAssign: 105 9
+].
+171203-16:46:11 [INFO] -- mt: message received: [in (InMsg) -- TicketReq: Client-0107 2].
+171203-16:46:11 [INFO] -- out: message received: [mt (OutMsg) -- TicketRep: Client-0107 2 107
+].
+171203-16:46:11 [INFO] -- out: message received: [22 (OutMsg) -- TicketCall: 51 22
+].
+171203-16:46:11 [INFO] -- mt: message received: [in (InMsg) -- TicketReq: Client-0108 9].
+171203-16:46:11 [INFO] -- out: message received: [mt (OutMsg) -- TicketRep: Client-0108 9 108
+].
+171203-16:46:11 [INFO] -- out: message received: [22 (OutMsg) -- TicketCall: 53 22
+].
+171203-16:46:11 [INFO] -- mt: message received: [in (InMsg) -- CheckOut: 11 504].
+171203-16:46:11 [INFO] -- 11: message received: [mt (CheckOut) -- Client CheckOut!
+].
+171203-16:46:11 [INFO] -- 11: Client at Table 11 has CheckOut.
+171203-16:46:11 [INFO] -- out: message received: [11 (OutMsg) -- TicketCall: 83 11
+].
+171203-16:46:11 [INFO] -- mt: message received: [in (InMsg) -- TicketAck: 83 11 4].
+171203-16:46:11 [INFO] -- out: message received: [mt (OutMsg) -- TableAssign: 83 11
+].
+171203-16:46:11 [INFO] -- out: message received: [22 (OutMsg) -- TicketCall: 54 22
+].
+171203-16:46:12 [INFO] -- out: message received: [22 (OutMsg) -- TicketCall: 59 22
+].
+171203-16:46:12 [INFO] -- out: message received: [22 (OutMsg) -- TicketCall: 64 22
+].
+171203-16:46:12 [INFO] -- mt: message received: [in (InMsg) -- TicketReq: Client-0109 5].
+171203-16:46:12 [INFO] -- out: message received: [mt (OutMsg) -- TicketRep: Client-0109 5 109
+].
+171203-16:46:12 [INFO] -- out: message received: [22 (OutMsg) -- TicketCall: 74 22
+].
+171203-16:46:12 [INFO] -- mt: message received: [in (InMsg) -- TicketAck: 74 22 6].
+171203-16:46:12 [INFO] -- out: message received: [mt (OutMsg) -- TableAssign: 74 22
+].
+171203-16:46:12 [INFO] -- mt: message received: [in (InMsg) -- TicketReq: Client-0110 5].
+171203-16:46:12 [INFO] -- out: message received: [mt (OutMsg) -- TicketRep: Client-0110 5 110
+].
+171203-16:46:12 [INFO] -- mt: message received: [in (InMsg) -- CheckOut: 8 292].
+171203-16:46:12 [INFO] -- 8: message received: [mt (CheckOut) -- Client CheckOut!
+].
+171203-16:46:12 [INFO] -- 8: Client at Table 8 has CheckOut.
+171203-16:46:12 [INFO] -- out: message received: [8 (OutMsg) -- TicketCall: 107 8
+].
+171203-16:46:12 [INFO] -- mt: message received: [in (InMsg) -- TicketAck: 107 8 2].
+171203-16:46:12 [INFO] -- out: message received: [mt (OutMsg) -- TableAssign: 107 8
+].
+171203-16:46:12 [INFO] -- mt: message received: [in (InMsg) -- TicketReq: Client-0111 2].
+171203-16:46:12 [INFO] -- out: message received: [mt (OutMsg) -- TicketRep: Client-0111 2 111
+].
+171203-16:46:12 [INFO] -- mt: message received: [in (InMsg) -- CheckOut: 29 1272].
+171203-16:46:12 [INFO] -- 29: message received: [mt (CheckOut) -- Client CheckOut!
+].
+171203-16:46:12 [INFO] -- 29: Client at Table 29 has CheckOut.
+171203-16:46:12 [INFO] -- out: message received: [29 (OutMsg) -- TicketCall: 86 29
+].
+171203-16:46:12 [INFO] -- mt: message received: [in (InMsg) -- TicketAck: 86 29 8].
+171203-16:46:12 [INFO] -- out: message received: [mt (OutMsg) -- TableAssign: 86 29
+].
+171203-16:46:12 [INFO] -- mt: message received: [in (InMsg) -- CheckOut: 24 1422].
+171203-16:46:12 [INFO] -- 24: message received: [mt (CheckOut) -- Client CheckOut!
+].
+171203-16:46:12 [INFO] -- 24: Client at Table 24 has CheckOut.
+171203-16:46:12 [INFO] -- out: message received: [24 (OutMsg) -- TicketCall: 75 24
+].
+171203-16:46:12 [INFO] -- mt: message received: [in (InMsg) -- TicketAck: 75 24 6].
+171203-16:46:12 [INFO] -- out: message received: [mt (OutMsg) -- TableAssign: 75 24
+].
+171203-16:46:13 [INFO] -- mt: message received: [in (InMsg) -- TicketReq: Client-0112 6].
+171203-16:46:13 [INFO] -- out: message received: [mt (OutMsg) -- TicketRep: Client-0112 6 112
+].
+171203-16:46:13 [INFO] -- mt: message received: [in (InMsg) -- CheckOut: 6 438].
+171203-16:46:13 [INFO] -- mt: message received: [in (InMsg) -- TicketReq: Client-0113 8].
+171203-16:46:13 [INFO] -- 6: message received: [mt (CheckOut) -- Client CheckOut!
+].
+171203-16:46:13 [INFO] -- 6: Client at Table 6 has CheckOut.
+171203-16:46:13 [INFO] -- out: message received: [mt (OutMsg) -- TicketRep: Client-0113 8 113
+].
+171203-16:46:13 [INFO] -- out: message received: [6 (OutMsg) -- TicketCall: 111 6
+].
+171203-16:46:13 [INFO] -- mt: message received: [in (InMsg) -- TicketAck: 111 6 2].
+171203-16:46:13 [INFO] -- out: message received: [mt (OutMsg) -- TableAssign: 111 6
+].
+171203-16:46:13 [INFO] -- mt: message received: [in (InMsg) -- CheckOut: 19 468].
+171203-16:46:13 [INFO] -- 19: message received: [mt (CheckOut) -- Client CheckOut!
+].
+171203-16:46:13 [INFO] -- 19: Client at Table 19 has CheckOut.
+171203-16:46:13 [INFO] -- out: message received: [19 (OutMsg) -- TicketCall: 85 19
+].
+171203-16:46:13 [INFO] -- mt: message received: [in (InMsg) -- TicketAck: 85 19 4].
+171203-16:46:13 [INFO] -- out: message received: [mt (OutMsg) -- TableAssign: 85 19
+].
+171203-16:46:13 [INFO] -- mt: message received: [in (InMsg) -- TicketReq: Client-0114 8].
+171203-16:46:13 [INFO] -- out: message received: [mt (OutMsg) -- TicketRep: Client-0114 8 114
+].
+171203-16:46:13 [INFO] -- mt: message received: [in (InMsg) -- TicketReq: Client-0115 2].
+171203-16:46:13 [INFO] -- out: message received: [mt (OutMsg) -- TicketRep: Client-0115 2 115
+].
+171203-16:46:13 [INFO] -- mt: message received: [in (InMsg) -- TicketReq: Client-0116 6].
+171203-16:46:13 [INFO] -- out: message received: [mt (OutMsg) -- TicketRep: Client-0116 6 116
+].
+171203-16:46:13 [INFO] -- mt: message received: [in (InMsg) -- TicketReq: Client-0117 2].
+171203-16:46:13 [INFO] -- out: message received: [mt (OutMsg) -- TicketRep: Client-0117 2 117
+].
+171203-16:46:13 [INFO] -- mt: message received: [in (InMsg) -- CheckOut: 18 848].
+171203-16:46:13 [INFO] -- 18: message received: [mt (CheckOut) -- Client CheckOut!
+].
+171203-16:46:13 [INFO] -- 18: Client at Table 18 has CheckOut.
+171203-16:46:13 [INFO] -- out: message received: [18 (OutMsg) -- TicketCall: 90 18
+].
+171203-16:46:13 [INFO] -- mt: message received: [in (InMsg) -- TicketAck: 90 18 4].
+171203-16:46:13 [INFO] -- out: message received: [mt (OutMsg) -- TableAssign: 90 18
+].
