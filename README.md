@@ -18,15 +18,14 @@ For the ease of testing, you may want to change the **TimerSimulationSpeed** to 
 Adapt to MacOS, **PC user** please refer to **"For PC User"** Section
 
 ### For IntelliJ IDEA User:
-Open **Final_V10_GUI** and run **TableGUI.java**
+1. Open **Final_V10_GUI** and run **TableGUI.java**
+2. Click on [Start Server], and Run the client Stream.
 
 ### For Eclipse User:
 1. New an empty Project
 2. Copy all the files inside **Final_V10_GUI** to the new project
 3. Run **TableGUI.java**
-
-### Start Server
-Click the button "Start the Server" on GUI Panel
+4. Click on [Start Server], and Run the client Stream.
 
 ## Class Info: Package AppKickStarter
 | Class Name | Description |
