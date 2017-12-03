@@ -1,22 +1,11 @@
 # COMP4007_Group2_Phase2
 
-## Usage
-
-```sh
-git clone https://github.com/MaureenZOU/COMP4007_Group2_Phase2.git
-```
-
-Run
-```sh
-./FINAL_V10_GUI/src/AppKickstarter/TableGUI.java
-```
-
-Clieck on [Start Server], and Run the client Stream.
-
 ## Environment Requirement
 This project is originally written on Mac, please feel free to directly run it on a mac machine.
 
-However, for **PC USERS**, please do some changes in java files: you need to change **"\r\n"** to **"\n"** in the following lines:
+However, for **PC USERS**, please do some changes: 
+1. Go to the folder "./ProjPhase2-Grp2/FINAL_V10_GUI/src/AppKickstarter/"
+2. Change **"\r\n"** to **"\n"** in the following lines of the following java files:
 
 ### Client.java 
 #### line 482:
@@ -102,3 +91,20 @@ AppKickStarter.misc contains several misc classes...
 | Class Name | Description |
 | --- | --- |
 | Timer | It is a timer class which defines a timer. |
+
+## Usage
+
+```sh
+git clone https://github.com/MaureenZOU/COMP4007_Group2_Phase2.git
+```
+
+Run
+```sh
+./FINAL_V10_GUI/src/AppKickstarter/TableGUI.java
+```
+
+Click on [Start Server], and Run the client Stream.
+
+## Compatibility
+Adapt to both Mac and PC
+
