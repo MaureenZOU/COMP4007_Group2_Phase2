@@ -13,6 +13,8 @@ Run
 
 Click on [Start Server], and Run the client Stream.
 
+For the ease of testing, you may want to change the **TimerSimulationSpeed** to 1000 and the **AvgEatingTime** to 180 in **ect/RQS.cfg**.
+
 Adapt to MacOS, **PC user** please refer to **"For PC User"** Section
 
 ### For IntelliJ IDEA User:
