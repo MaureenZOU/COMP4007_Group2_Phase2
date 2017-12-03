@@ -13,7 +13,7 @@ Run
 
 Click on [Start Server], and Run the client Stream.
 
-Adapt to MacOS, PC user please refer to "For PC User" Section
+Adapt to MacOS, **PC user** please refer to **"For PC User"** Section
 
 
 ## Class Info: Package AppKickStarter
