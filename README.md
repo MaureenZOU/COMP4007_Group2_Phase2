@@ -15,6 +15,13 @@ Click on [Start Server], and Run the client Stream.
 
 Adapt to MacOS, **PC user** please refer to **"For PC User"** Section
 
+### For IntelliJ IDEA User:
+Open **Final_V10_GUI** and run **TableGUI.java**
+
+### For Eclipse User:
+1. New an empty Project
+2. Copy all the files inside **Final_V10_GUI** to the new project
+3. Run **TableGUI.java**
 
 ## Class Info: Package AppKickStarter
 | Class Name | Description |
