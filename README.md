@@ -62,7 +62,7 @@ AppKickStarter.misc contains several misc classes...
 | --- | --- |
 | Timer | It is a timer class which defines a timer. |
 
-## *****FOR PC USER***** Make it compatible for all systems
+## *****FOR PC USER***** ------ Make it compatible for all systems
 
 This project is originally written on Mac, please feel free to directly run it on a mac machine.
 
