@@ -68,7 +68,7 @@ This project is originally written on Mac, please feel free to directly run it o
 
 However, for **PC USERS**, please do some changes: 
 1. Go to the folder "./ProjPhase2-Grp2/FINAL_V10_GUI/src/AppKickstarter/"
-2. Change **"\r\n"** to **"\n"** in the following lines of the following java files:
+2. Add ```.replaceAll("[^0-9.]", "")``` in the following lines of the following java files:
 
 ### myThread.MainThread.java 
 #### line 123 
