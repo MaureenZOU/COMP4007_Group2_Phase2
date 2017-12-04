@@ -82,43 +82,6 @@ To
   ```
 
 ### myThread.MainThread.java 
-
-#### line 109 
-Change
-  ```
-  details = "TicketRep: " + cid + " " + nPersons + " " + ticketIssueNo + "\r\n";
-  ```
-To
-  ```
-  details = "TicketRep: " + cid + " " + nPersons + " " + ticketIssueNo + "\n";
-  ```
-#### line 116 
-Change
-  ```
-  details = "QueueTooLong: " + cid + " " + nPersons+ "\r\n";
-  ```
-To
-  ```
-  details = "QueueTooLong: " + cid + " " + nPersons+ "\n";
-  ```
-#### line 141 
-Change
-  ```
-  details = "TableAssign: " + ticketAckNo + " " + tidstr + "\r\n";
-  ```
-To
-  ```
-  details = "TableAssign: " + ticketAckNo + " " + tidstr + "\n";
-  ```
-#### line 150 
-Change
-  ```
-  details = "Client CheckOut!" + "\r\n";
-  ```
-To
-  ```
-  details = "Client CheckOut!" + "\n";
-  ```
 #### line 123 
 Change
   ```
