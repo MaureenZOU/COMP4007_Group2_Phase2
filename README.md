@@ -62,7 +62,8 @@ AppKickStarter.misc contains several misc classes...
 | --- | --- |
 | Timer | It is a timer class which defines a timer. |
 
-## *****FOR PC USER*****
+## *****FOR PC USER***** Make it compatible for all systems
+
 This project is originally written on Mac, please feel free to directly run it on a mac machine.
 
 However, for **PC USERS**, please do some changes: 
@@ -118,4 +119,30 @@ To
   ```
   details = "Client CheckOut!" + "\n";
   ```
-
+#### line 123 
+Change
+  ```
+  ticketAckNo = Integer.parseInt(instrs[0]);
+  ```
+To
+  ```
+  ticketAckNo = Integer.parseInt(instrs[0].replaceAll("[^0-9.]", ""));
+  ```
+#### line 125 
+Change
+  ```
+  nPersons = Integer.parseInt(instrs[2]); 
+  ```
+To
+  ```
+  nPersons = Integer.parseInt(instrs[2].replaceAll("[^0-9.]", "")); 
+  ```
+#### line 147
+Change
+  ```
+  totalSpd=Integer.parseInt(instrs[1]);
+  ```
+To
+  ```
+  totalSpd=Integer.parseInt(instrs[1].replaceAll("[^0-9.]", ""));
+  ```
