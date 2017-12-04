@@ -70,17 +70,6 @@ However, for **PC USERS**, please do some changes:
 1. Go to the folder "./ProjPhase2-Grp2/FINAL_V10_GUI/src/AppKickstarter/"
 2. Change **"\r\n"** to **"\n"** in the following lines of the following java files:
 
-### Client.java 
-#### line 482:
-Change
-  ```
-  req=ticketReq+cidP+Integer.toString(cidDft)+' '+numString+"\r\n";
-  ```
-To
-  ```
-  req=ticketReq+cidP+Integer.toString(cidDft)+' '+numString+"\n";
-  ```
-
 ### myThread.MainThread.java 
 #### line 123 
 Change
